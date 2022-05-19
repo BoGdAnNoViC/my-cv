@@ -1,0 +1,267 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+.top-container {
+  background-color: #519259;
+  position: relative;
+  padding-top: 100px;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.middle-container {
+  background-color: #f0bb62;
+  padding: 100px;
+}
+
+.bottom-container {
+  background-color: #ecdbba;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  width: 25%;
+  margin: 50px auto 0 auto;
+  font-size: 3.5rem;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999e;
+  margin: 10px 20px;
+  text-decoration: none;
+  padding-top: 50px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 8px;
+  width: 10%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.top-description {
+  width: 70%;
+  margin: auto;
+}
+
+.top-description-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.bottom-description {
+  width: 30%;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+  width: 30%;
+  position: relative;
+  margin-left: 35%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.user-icon {
+  position: fixed;
+  left: 100px;
+  width: 10%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.hospitality-manager {
+  clear: left;
+}
+
+.cooking {
+  clear: right;
+}
+
+.internship {
+  clear: left;
+}
+
+.info-languages {
+  margin: 0px 340px 50px 340px;
+}
+
+.HospitalityManager {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Cooking {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.Internship {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+}
+
+.imageStyle {
+  width: 100%;
+  float: left;
+}
+
+.skill-container {
+  display: flex;
+}
+
+.img {
+  width: 20%;
+  margin-right: 30px;
+}
+
+.new-chapter-header {
+  display: flex;
+}
+
+.language-icons {
+  margin-bottom: 50px;
+}
+
+.contact-me {
+  margin: 0px 0px 20px 0;
+}
+.icon-authors {
+  display: flex;
+  flex-direction: row;
+}
